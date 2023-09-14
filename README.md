@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mikatechs/huddle-landing-page-with-a-single-introductory-section)
-- Live Site URL: [Add live site URL here](https://mikatechs.github.io/huddle-landing-page-with-a-single-introductory-section)
+- Solution URL: [Solution URL](https://github.com/mikatechs/huddle-landing-page-with-a-single-introductory-section)
+- Live Site URL: [Live site URL](https://mikatechs.github.io/huddle-landing-page-with-a-single-introductory-section)
 
 ## My process
 
