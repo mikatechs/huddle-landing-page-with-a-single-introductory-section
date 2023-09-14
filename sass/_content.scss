@@ -1,0 +1,100 @@
+.header-logo {
+  max-width: 20rem;
+  display: block;
+  transform: translateY(-8rem);
+
+  @media only screen and (max-width: 43.75em) {
+    max-width: 12rem;
+    transform: translateY(-2rem);
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 31.25em) {
+      transform: translateY(0);
+      margin: 0 0 6.98rem 0;
+  }
+}
+
+.main-image--container {
+  max-width: 69.6rem;
+
+  @media only screen and (max-width: 62.5em) {
+      max-width: 69.6rem;
+  }
+
+  @media only screen and (max-width: 43.75em) {
+    max-width: 29.6rem;
+    margin-bottom: 6rem;
+  }
+}
+
+.content {
+  max-width: 52rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  &__heading {
+    max-width: 48.7rem;
+
+    @media only screen and (max-width: 31.25em) {
+      max-width: 28rem;
+    }
+  }
+
+  &__paragraph {
+    @media only screen and (max-width: 31.25em) {
+      max-width: 30.4rem;
+    }
+  }
+
+  @media only screen and (max-width: 62.5em) {
+    max-width: 40rem;
+  }
+
+  @media only screen and (max-width: 43.75em) {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.social {
+  align-self: flex-end;
+  transform: translateY(15.9rem);
+
+  a:not(:last-child) {
+    margin-right: 1.09rem;
+  }
+
+  &__icon {
+    display: inline-block;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    padding: 0.7rem;
+    width: 4rem;
+    height: 4rem;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(28deg) brightness(102%) contrast(106%);
+
+    &:hover {
+      cursor: pointer;
+      filter: brightness(0) saturate(100%) invert(50%) sepia(14%) saturate(4539%) hue-rotate(289deg) brightness(100%) contrast(105%);
+    }
+
+    @media only screen and (max-width: 43.75em) {
+        width: 2.7142rem;
+        height: 2.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 62.5em) {
+    align-self: flex-end;
+    transform: translateY(5rem);
+  }
+
+  @media only screen and (max-width: 43.75em) {
+    align-self: center;
+    margin-top: 4rem;
+    transform: translateY(0);
+  }
+}

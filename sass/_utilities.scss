@@ -1,0 +1,29 @@
+.btn {
+    width: 20rem;
+    height: 5.6rem;
+    border: none;
+    border-radius: 2.8rem;
+    background: #FFF;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+
+    color: $color-violet;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.7rem; /* 150% */
+    transition: all .2s;
+
+    &:hover {
+        background-color: $color-magneta;
+        color: #FFF;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 56.25em) {
+            height: 4rem;
+            font-size: 1.2rem;
+            line-height: 1.8rem; /* 150% */
+    }
+}

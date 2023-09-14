@@ -1,0 +1,14 @@
+{
+  "name": "huddle-landing-page-with-a-single-introductory-section",
+  "version": "1.0.0",
+  "description": "Huddle landing page with a single introductory section",
+  "main": "index.js",
+  "scripts": {
+    "start:scss": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Mika Varshanidze",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
